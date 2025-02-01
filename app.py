@@ -10,7 +10,6 @@ def load_whitelist():
         df.columns = ["Wallet Address"]
         df["Wallet Address"] = df["Wallet Address"].str.strip().str.lower()  # Normalize case & remove spaces
         whitelist_set = set(df["Wallet Address"].dropna())
-        st.write("✅ Loaded Wallets:", whitelist_set)  # Debugging
         return whitelist_set
     except Exception as e:
         st.error(f"⚠️ Error loading the whitelist: {e}")
