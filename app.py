@@ -48,5 +48,18 @@ if wallet_address:
 
 # Footer
 st.markdown("---")
-st.markdown("🔒 This tool checks wallet addresses.")
+st.markdown("Welcome to the PRIMOS Whitelist Checker – your gateway to verifying your spot in our exclusive whitelist! If you've secured a whitelist spot, this tool will confirm your eligibility and ensure you're ready for mint day.
+
+How to Use the Whitelist Checker?
+Enter Your Wallet Address – Simply input the wallet you used for registration.
+Check Status – Our system will instantly verify whether your wallet is on the whitelist.
+Get Ready to Mint! – If you're whitelisted, you're all set for the upcoming drop.
+Need Help?
+If you encounter any issues or believe there's a mistake, feel free to reach out via our official channels:
+
+🔹 Twitter: @YourTwitterHandle
+🔹 Discord: Join the Community
+🔹 Website: www.yourwebsite.com
+
+Stay tuned for updates, sneak peeks, and more exclusive content.")
 
