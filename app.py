@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 # Display PRIMOS logo (BIG size)
-st.image("https://imgur.com/a/KzJKq6Z")
+st.image("https://imgur.com/a/KzJKq6Z.png")
 
 
 # Animated Title
