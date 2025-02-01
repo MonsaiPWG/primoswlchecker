@@ -56,7 +56,6 @@ st.markdown(
             <li><b>Check Status</b> – Our system will instantly verify whether your wallet is on the whitelist.</li>
             <li><b>Get Ready to Mint!</b> – If you're whitelisted, you're all set for the upcoming sale.</li>
         </ul>
-
         <h4>Need Help?</h4>
         <p>If you encounter any issues or believe there's a mistake, reach out via our official channels:</p>
         <p>
