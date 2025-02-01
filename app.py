@@ -4,7 +4,7 @@ import pandas as pd
 # Function to load the whitelist from a CSV file hosted on GitHub
 @st.cache_data
 def load_whitelist():
-    url = "https://raw.githubusercontent.com/your-username/your-repo/main/WL.csv"  # Change to your actual GitHub URL
+    url = "https://raw.githubusercontent.com/primoswlchecker/main/WL.csv"  # Change to your actual GitHub URL
     try:
         df = pd.read_csv(url, usecols=[0])  # Assuming wallet addresses are in the first column
         df.columns = ["Wallet Address"]
