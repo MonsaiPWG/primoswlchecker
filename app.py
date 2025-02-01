@@ -53,8 +53,8 @@ st.markdown(
         <h4>How to Use the Whitelist Checker?</h4>
         <ul style="text-align:center;">
             <b>Enter Your Wallet Address</b> – Simply input the wallet you used for registration.
-            <li><b>Check Status</b> – Our system will instantly verify whether your wallet is on the whitelist.</li>
-            <li><b>Get Ready to Mint!</b> – If you're whitelisted, you're all set for the upcoming sale.</li>
+            <b>Check Status</b> – Our system will instantly verify whether your wallet is on the whitelist.
+            <b>Get Ready to Mint!</b> – If you're whitelisted, you're all set for the upcoming sale.
         </ul>
         <h4>Need Help?</h4>
         <p>If you encounter any issues or believe there's a mistake, reach out via our official channels:</p>
