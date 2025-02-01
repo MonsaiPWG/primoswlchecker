@@ -2,9 +2,6 @@ import streamlit as st
 import pandas as pd
 import time
 
-
-
-
 # Animated Title
 st.markdown(
     """
@@ -48,18 +45,29 @@ if wallet_address:
 
 # Footer
 st.markdown("---")
-st.markdown("Welcome to the PRIMOS Whitelist Checker – your gateway to verifying your spot in our exclusive whitelist! If you've secured a whitelist spot, this tool will confirm your eligibility and ensure you're ready for mint day.
+st.markdown(
+    """
+    <div style="text-align:center;">
+        <h3>🚀 Welcome to the PRIMOS Whitelist Checker!</h3>
+        <p>Your gateway to verifying your spot in our exclusive whitelist!</p>
+        
+        <h4>How to Use the Whitelist Checker?</h4>
+        <ul style="text-align:left;">
+            <li><b>Enter Your Wallet Address</b> – Simply input the wallet you used for registration.</li>
+            <li><b>Check Status</b> – Our system will instantly verify whether your wallet is on the whitelist.</li>
+            <li><b>Get Ready to Mint!</b> – If you're whitelisted, you're all set for the upcoming sale.</li>
+        </ul>
 
-How to Use the Whitelist Checker?
-Enter Your Wallet Address – Simply input the wallet you used for registration.
-Check Status – Our system will instantly verify whether your wallet is on the whitelist.
-Get Ready to Mint! – If you're whitelisted, you're all set for the upcoming drop.
-Need Help?
-If you encounter any issues or believe there's a mistake, feel free to reach out via our official channels:
-
-🔹 Twitter: @YourTwitterHandle
-🔹 Discord: Join the Community
-🔹 Website: www.yourwebsite.com
-
-Stay tuned for updates, sneak peeks, and more exclusive content.")
+        <h4>Need Help?</h4>
+        <p>If you encounter any issues or believe there's a mistake, reach out via our official channels:</p>
+        <p>
+            🔹 <a href="https://x.com/PrimosWarriors" target="_blank">Twitter</a><br>
+            🔹 <a href="https://discord.gg/npWJSwpsj4" target="_blank">Discord</a><br>
+            🔹 Website: Coming soon!
+        </p>
+        <p>Stay tuned for updates, sneak peeks, and more exclusive content! 🎉</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
