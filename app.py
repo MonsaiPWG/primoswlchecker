@@ -10,7 +10,7 @@ st.image("https://imgur.com/a/KzJKq6Z")
 st.markdown(
     """
     <h1 style="text-align:center; font-size:50px; color:#FFD700; text-shadow: 3px 3px 5px #000;">
-       🔥 PRIMOS Whitelist Checker 🔥
+    PRIMOS Whitelist Checker
     </h1>
     """,
     unsafe_allow_html=True
