@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 # Display PRIMOS logo (BIG size)
-st.image("https://raw.githubusercontent.com/primoswlchecker/main/logo.png", width=800)
+st.image("https://imgur.com/a/KzJKq6Z", width=800)
 
 
 # Animated Title
