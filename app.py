@@ -51,7 +51,7 @@ st.markdown(
         <h3>Welcome to the PRIMOS Whitelist Checker!</h3>
         <p>Your gateway to verifying your spot in our exclusive whitelist!</p>
         <h4>How to Use the Whitelist Checker?</h4>
-        <ul style="text-align:left;">
+        <ul style="text-align:center;">
             <li><b>Enter Your Wallet Address</b> – Simply input the wallet you used for registration.</li>
             <li><b>Check Status</b> – Our system will instantly verify whether your wallet is on the whitelist.</li>
             <li><b>Get Ready to Mint!</b> – If you're whitelisted, you're all set for the upcoming sale.</li>
