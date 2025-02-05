@@ -61,7 +61,7 @@ st.markdown(
         <p>
             🔹 <a href="https://x.com/PrimosWarriors" target="_blank">Twitter</a><br>
             🔹 <a href="https://discord.gg/npWJSwpsj4" target="_blank">Discord</a><br>
-            🔹 Website: Coming soon!
+            🔹 <a href="https://primos.games" target="_blank">Website</a><br>
         </p>
         <p>Stay tuned for updates, sneak peeks, and more exclusive content! 🎉</p>
     </div>
