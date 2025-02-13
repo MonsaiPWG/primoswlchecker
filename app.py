@@ -16,7 +16,7 @@ st.markdown(
 def load_whitelist():
     url = "https://raw.githubusercontent.com/MonsaiPWG/primoswlchecker/refs/heads/main/WL.csv"
 
-    with st.spinner("🔄 Loading PRIMOS Whitelist..."):
+    with st.spinner("🔄 Searching in PRIMOS Whitelist..."):
         time.sleep(2)  # Simulate loading time
 
     try:
