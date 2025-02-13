@@ -12,8 +12,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Function to load the whitelist with animation
-@st.cache_data
+# Function to load the whitelist
 def load_whitelist():
     url = "https://raw.githubusercontent.com/MonsaiPWG/primoswlchecker/refs/heads/main/WL.csv"
 
@@ -29,7 +28,7 @@ def load_whitelist():
         st.error("⚠️ Error loading the whitelist. Ensure the CSV file is accessible online.")
         return set()
 
-# Load whitelist
+# Load whitelist (now always fetching the latest version)
 whitelist = load_whitelist()
 
 # UI Input Field
@@ -68,4 +67,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
