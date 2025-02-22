@@ -15,10 +15,8 @@ st.markdown(
 # Function to load the whitelist
 def load_whitelist():
     url = "https://raw.githubusercontent.com/MonsaiPWG/primoswlchecker/refs/heads/main/WL.csv"
-
     with st.spinner("🔄 Searching in PRIMOS Whitelist..."):
         time.sleep(2)  # Simulate loading time
-
     try:
         df = pd.read_csv(url, usecols=[2], dtype=str, skiprows=1)
         df.columns = ["Wallet Address"]
@@ -28,8 +26,12 @@ def load_whitelist():
         st.error("⚠️ Error loading the whitelist. Ensure the CSV file is accessible online.")
         return set()
 
-# Load whitelist (now always fetching the latest version)
-whitelist = load_whitelist()
+# Add a button to refresh the whitelist
+if st.button("🔄 Refresh Whitelist"):
+    whitelist = load_whitelist()
+else:
+    # Load whitelist (if not refreshed, it will use the previous value or load on app start)
+    whitelist = load_whitelist()
 
 # UI Input Field
 wallet_address = st.text_input("🔑 Enter Your Wallet Address", "")
